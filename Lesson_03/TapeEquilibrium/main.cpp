@@ -10,7 +10,7 @@
 * Now initialise two more variables to 0 which will be sum2 and sum3
 * Traverse the input vector from 1 till end
 * each time take the sum of the first part of the array and add it to sum2
-* sum2 = sum2 + A[i - 1] - 1;
+* sum2 = sum2 + A[i - 1];
 * Subtract the sum2 from sum3 which will give the sum of elements right to the P ie i
 * sum3 = total_sum - sum2;
 * find the minimum value using the in-built function min
