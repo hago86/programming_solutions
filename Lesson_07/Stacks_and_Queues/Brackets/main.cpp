@@ -1,6 +1,12 @@
 /*
-The idea
-
+The idea is:
+1) If the string is empty, return true
+2) Use a stack
+3) If the string contains any of the open brackets like '(' or '{' or '[', push it to the stack top
+4) Else if the current char in the string is any one of the closing brackets like ')' or '}' or ']', and the 
+   stack top contains the corresponding opening bracket, then remove the stack top by popping it
+5) Else, keep adding the chars to the stack
+6) Finally, if the stack is empty then all the brackets are properly nested. So return 1 else 0
 */
 
 
