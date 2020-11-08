@@ -1,6 +1,7 @@
 /*
 Note that the input array can contain duplicates and
-negative numbers.
+negative numbers. But we need to only find the smallest
+positive integer greater than 0 mising in this array
 */
 
 
